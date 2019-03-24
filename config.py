@@ -8,10 +8,10 @@ DATASET_DIR = "Dataset"
 STYLES = ["fw"]
 # Set up `TRAIN_STYLE`
 DATASET_PATH = {
-    "trainA": f"./{DATASET_DIR}/flower/trainF",
-    "trainB": f"./{DATASET_DIR}/watercolor/trainW",
-    "testA": f"./{DATASET_DIR}/flower/testF",
-    "testB": f"./{DATASET_DIR}/watercolor/testW"
+    "trainA": f"./{DATASET_DIR}/flower/trainA",
+    "trainB": f"./{DATASET_DIR}/watercolor/trainB",
+    "testA": f"./{DATASET_DIR}/flower/testA",
+    "testB": f"./{DATASET_DIR}/watercolor/testB"
 }
 LOAD_DIM = 286
 CROP_DIM = 256
