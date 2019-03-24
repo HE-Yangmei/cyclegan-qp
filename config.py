@@ -38,7 +38,7 @@ BETA1 = 0.5
 BETA2 = 0.999
 BEGIN_ITER = 0
 END_ITER = 15000
-TRAIN = False  # `False` runs `infer` function & `True` runs `train` function
+TRAIN = True  # `False` runs `infer` function & `True` runs `train` function
 
 # Inference
 INFER_ITER = 15000
