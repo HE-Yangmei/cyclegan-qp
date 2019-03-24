@@ -4,9 +4,17 @@ __author__ = "Rahul Bhalley"
 
 # Data
 DATASET_DIR = "Dataset"
-# DATASET_NAME = "vangogh2photo"
-STYLES = ["fw"]
+DATASET_NAME = "Dataset"
+STYLES = ["fw", "mo", "uk", "vg"]
 # Set up `TRAIN_STYLE`
+if DATASET_NAME == "Dataset":
+    TRAIN_STYLE = "fw"
+elif DATASET_NAME == "monet2photo":
+    TRAIN_STYLE = "mo"
+elif DATASET_NAME == "ukiyoe2photo":
+    TRAIN_STYLE = "uk"
+elif DATASET_NAME == "vangogh2photo":
+    TRAIN_STYLE = "vg"
 DATASET_PATH = {
     "trainA": f"./{DATASET_DIR}/flower/trainA",
     "trainB": f"./{DATASET_DIR}/watercolor/trainB",
