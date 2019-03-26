@@ -54,7 +54,7 @@ INFER_STYLE = "fw"
 IMG_NAME = "y_rose.jpg"
 IN_IMG_DIR = "CNN/content"
 OUT_STY_DIR = "cyclegan-qp/sty"
-OUT_REC_DIR = "cyclegan/qp/rec"
+OUT_REC_DIR = "cyclegan-qp/rec"
 IMG_SIZE = None  # If `None` then stylizes original size `IMG_NAME`
 
 # Logs
