@@ -23,8 +23,8 @@ DATASET_PATH = {
 }
 LOAD_DIM = 286
 CROP_DIM = 256
-CKPT_DIR = "cyclegan-qp/checkpoints"
-SAMPLE_DIR = "cyclegan-qp/samples"
+CKPT_DIR = "checkpoints"
+SAMPLE_DIR = "samples"
 
 # Quadratic Potential
 LAMBDA = 10.0
@@ -52,9 +52,9 @@ TRAIN = False  # `False` runs `infer` function & `True` runs `train` function
 INFER_ITER = 2000
 INFER_STYLE = "fw"
 IMG_NAME = "y_rose.jpg"
-IN_IMG_DIR = "CNN/content"
-OUT_STY_DIR = "cyclegan-qp/sty"
-OUT_REC_DIR = "cyclegan-qp/rec"
+IN_IMG_DIR = "content"
+OUT_STY_DIR = "sty"
+OUT_REC_DIR = "rec"
 IMG_SIZE = None  # If `None` then stylizes original size `IMG_NAME`
 
 # Logs
